@@ -1,0 +1,36 @@
+.home-default-container{
+    background-color: #eeeeee;
+   
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        .c {
+            width: 325px;
+            height: 300px;
+            ul{               
+                li{                                 
+                    background: #437992;
+                    padding: 10px;
+                    border-radius: 5px;
+                    color: #efe7e7;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    margin-bottom: 15px;
+                    label{
+                        letter-spacing: 3px;
+                    }
+                    &:hover{
+                        background:#105b7d
+                    }
+                    sup{
+                        letter-spacing: normal;
+                    }
+                }
+            }
+          }
+      }
+      
+}
+

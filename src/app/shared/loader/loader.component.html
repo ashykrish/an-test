@@ -1,0 +1,9 @@
+<div *ngIf="isLoading | async" class="loader-overlay">
+    <div class="common-loader">  
+    </div>
+  </div>
+<div *ngIf="goLogin && isSessionExpires | async" class="loader-overlay">
+  <div class="session-expires">  
+      <!-- <p>Session Expires. Please <a [routerLink]="['/login']" (click)= "login()">Login</a></p> -->
+  </div>
+</div>
