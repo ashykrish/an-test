@@ -1,0 +1,33 @@
+.detail-wrapper{
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .c{
+            width: 321px;  
+            &.o{
+                background-color: #ddd;
+            }
+            &.e{
+                background-color: #eee;
+            }        
+        }
+        label{          
+           padding:5px;
+        }
+       &.header{
+            label{
+                background-color: red;
+                color: #fff;               
+            }
+        }
+        
+        label{
+            display: inline-block;
+            width: 150px;
+            margin-bottom: 5px;            
+        }
+       
+    }
+   
+}

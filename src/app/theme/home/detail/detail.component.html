@@ -1,1 +1,18 @@
-<p>detail works!</p>
+<div class="detail-wrapper">
+    <div class="box header">
+        <div class="c">
+            <label>Date</label>
+            <label>Value</label>
+        </div>
+       
+    </div>
+    <div class="box" *ngFor="let each of data.list;let i = index">
+        <div class="c" [ngClass]="{'e':i> 2 && i%2==0,'e':i==0,'o':i==1}">
+            <label>{{each.dt_txt | date:'mediumDate' }}</label>
+            <label>{{each.main.sea_level }}</label>
+        </div>
+
+    </div>
+
+
+</div>
